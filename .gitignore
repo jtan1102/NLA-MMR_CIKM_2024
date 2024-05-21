@@ -1,0 +1,6 @@
+*.pt
+scripts/save_models/
+scripts/save_models_update/
+*.pyc
+*.sh
+*.tar.gz

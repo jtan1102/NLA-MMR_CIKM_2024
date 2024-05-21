@@ -1,0 +1,7 @@
+import sys, os
+current_file_path = os.path.abspath(__file__)
+current_directory = os.path.dirname(current_file_path)
+sys.path.append(current_directory)
+
+from Drug_Rec_pt_new_final import MIMIC_III_Datasets_text_final,MIMIC_III_Datasets_text_Eval_final,MIMIC_III_Datasets_text_Test_final,MIMIC_III_Datasets_text_Test_final_my
+from Drug_Rec_pt_new_final_iv import MIMIC_IV_Datasets_text_final, MIMIC_IV_Datasets_text_Eval_final,MIMIC_IV_Datasets_text_Test_final,MIMIC_IV_Datasets_text_Test_final_my
